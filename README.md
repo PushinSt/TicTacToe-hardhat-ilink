@@ -122,6 +122,11 @@ $address - адрес контракта, $player - адрес игрока.
 `npx hardhat get-statistic-games --network ropsten --address $address`  
 $address - адрес контракта.  
 
+#### Installation  
+
+`npm install`  
+`npx hardhat compile` 
+
 #### Тестирование
 Автоматизированные тесты описаны в файле tests\TicTacToe.test.ts и запускаются командой:  
 `npx hardhat test tests\TicTacToe.test.ts`
